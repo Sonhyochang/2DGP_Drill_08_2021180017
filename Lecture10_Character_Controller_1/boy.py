@@ -89,6 +89,23 @@ class Run:
         boy.image.clip_draw(boy.frame * 100, boy.action*100,100,100,boy.x,boy.y)
         pass
 
+class AutoRun:
+    @staticmethod
+    def enter(boy):
+        pass
+
+    @staticmethod
+    def exit(boy):
+        pass
+
+    @staticmethod
+    def do(boy):
+        pass
+    
+    @staticmethod
+    def draw(boy):
+        pass
+
 
 class Boy:
     def __init__(self):
