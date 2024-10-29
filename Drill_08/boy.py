@@ -2,7 +2,7 @@ from asyncio import timeout
 
 from pico2d import load_image, get_time
 
-from Lecture10_Character_Controller_1.state_machine import space_down, time_out, right_down, right_up, left_down, \
+from Drill_08.state_machine import space_down, time_out, right_down, right_up, left_down, \
     left_up, start_event, a_down
 from state_machine import StateMachine
 
