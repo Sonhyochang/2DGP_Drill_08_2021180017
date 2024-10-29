@@ -111,13 +111,13 @@ class AutoRun:
 
     @staticmethod
     def do(boy):
-        if boy.x > 800:
+        if boy.x > 800: # 경계에서 좌우 자동으로 바꿈
             boy.dir = -1
             boy.action = 0
         elif boy.x < 0:
             boy.dir = 1
             boy.action = 1
-        boy.x += boy.dir * 10
+        boy.x += boy.dir * 15
         boy.frame= (boy.frame + 1) % 8
         if get_time() - boy.start_run_time > 5:
             if boy.dir == 1:
